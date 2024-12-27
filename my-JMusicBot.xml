@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>jmusicbot</Name>
+  <Repository>yojoshb/jmusicbot:latest</Repository>
+  <Registry>https://hub.docker.com/r/yojoshb/jmusicbot/</Registry>
+  <Network>pearlnet</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/jagrosh/MusicBot</Support>
+  <Project>https://github.com/yojoshb/jmusicbot-docker</Project>
+  <Overview>To start, run once, then modify config.txt with the owner Discord ID and Discord Bot token. Restart the container to use new settings.&#xD;
+&#xD;
+Docker container for https://github.com/jagrosh/MusicBot&#xD;
+Container built from https://hub.docker.com/r/yojoshb/jmusicbot/&#xD;
+&#xD;
+Likely working alternate repos:&#xD;
+SeVile/MusicBot&#xD;
+</Overview>
+  <Category/>
+  <WebUI/>
+  <TemplateURL/>
+  <Icon>https://jmusicbot.com/assets/images/logo.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset>12,13,14,15,16,17,18,19</CPUset>
+  <DateInstalled>1735321390</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires/>
+  <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/jmusicbot" Mode="rw" Description="Directory where config.txt and serversettings.json are held." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/JMusicBot/</Config>
+  <Config Name="Bot Version" Target="BOT_VERSION" Default="latest" Mode="" Description="Format: x.x.x" Type="Variable" Display="always" Required="false" Mask="false">0.4.3</Config>
+  <Config Name="Bot Repository" Target="BOT_GITHUB" Default="jagrosh/MusicBot" Mode="" Description="Format: {owner}/{repo}. Changes what repository is used for the bot. Useful when the bot breaks with no public fix other than a forked repo." Type="Variable" Display="always" Required="false" Mask="false">jagrosh/MusicBot</Config>
+</Container>
