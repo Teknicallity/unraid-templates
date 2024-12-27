@@ -3,7 +3,7 @@
   <Name>jmusicbot</Name>
   <Repository>yojoshb/jmusicbot:latest</Repository>
   <Registry>https://hub.docker.com/r/yojoshb/jmusicbot/</Registry>
-  <Network>pearlnet</Network>
+  <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
@@ -17,16 +17,15 @@ Container built from https://hub.docker.com/r/yojoshb/jmusicbot/&#xD;
 Likely working alternate repos:&#xD;
 SeVile/MusicBot&#xD;
 </Overview>
-  <Category/>
+  <Beta>False</Beta>
+  <Category>Network:Other</Category>
+  <Date>2024-12-27</Date>
   <WebUI/>
-  <TemplateURL/>
-  <Icon>https://jmusicbot.com/assets/images/logo.png</Icon>
+  <TemplateURL>https://raw.githubusercontent.com/Teknicallity/unraid-templates/main/my-JMusicBot.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/Teknicallity/unraid-templates/main/images/JMusicBot.png</Icon>
   <ExtraParams/>
   <PostArgs/>
-  <CPUset>12,13,14,15,16,17,18,19</CPUset>
-  <DateInstalled>1735321390</DateInstalled>
-  <DonateText/>
-  <DonateLink/>
+  <CPUset/>
   <Requires/>
   <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/jmusicbot" Mode="rw" Description="Directory where config.txt and serversettings.json are held." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/JMusicBot/</Config>
   <Config Name="Bot Version" Target="BOT_VERSION" Default="latest" Mode="" Description="Format: x.x.x" Type="Variable" Display="always" Required="false" Mask="false">0.4.3</Config>
