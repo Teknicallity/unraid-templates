@@ -7,12 +7,11 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://github.com/jagrosh/MusicBot</Support>
-  <Project>https://github.com/yojoshb/jmusicbot-docker</Project>
-  <Overview>To start, run once, then modify config.txt with the owner Discord ID and Discord Bot token. Restart the container to use new settings.&#xD;
+  <Support>https://forums.unraid.net/topic/183581-support-teknicallity-jmusicbot</Support>
+  <Project>https://github.com/jagrosh/MusicBot</Project>
+  <Overview>A Discord music bot that's easy to set up and run yourself!&#xD;
 &#xD;
-Docker container for https://github.com/jagrosh/MusicBot&#xD;
-Container built from https://hub.docker.com/r/yojoshb/jmusicbot/&#xD;
+To start, run once, then modify config.txt with the owner Discord ID and Discord Bot token. Restart the container to use new settings.&#xD;
 &#xD;
 The bot Github variable is useful when the bot breaks with no public fix other than a forked repo. In the config, turn off 'updatealerts'&#xD;
 Likely working alternate repos:&#xD;
