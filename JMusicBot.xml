@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>jmusicbot</Name>
-  <Repository>yojoshb/jmusicbot:latest</Repository>
-  <Registry>https://hub.docker.com/r/yojoshb/jmusicbot/</Registry>
+  <Repository>ghcr.io/yojoshb/jmusicbot-docker:latest</Repository>
+  <Registry>https://github.com/yojoshb/jmusicbot-docker/pkgs/container/jmusicbot-docker</Registry>
   <Network>bridge</Network>
   <MyIP/>
   <Shell>sh</Shell>
@@ -14,20 +14,21 @@
 Docker container for https://github.com/jagrosh/MusicBot&#xD;
 Container built from https://hub.docker.com/r/yojoshb/jmusicbot/&#xD;
 &#xD;
+The bot Github variable is useful when the bot breaks with no public fix other than a forked repo. In the config, turn off 'updatealerts'&#xD;
 Likely working alternate repos:&#xD;
 SeVile/MusicBot&#xD;
 </Overview>
   <Beta>False</Beta>
   <Category>Network:Other</Category>
-  <Date>2024-12-27</Date>
+  <Date>2024-12-28</Date>
   <WebUI/>
-  <TemplateURL>https://raw.githubusercontent.com/Teknicallity/unraid-templates/main/my-JMusicBot.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/Teknicallity/unraid-templates/main/JMusicBot.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/Teknicallity/unraid-templates/main/images/JMusicBot.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
   <Requires/>
   <Config Name="Appdata" Target="/config" Default="/mnt/user/appdata/jmusicbot" Mode="rw" Description="Directory where config.txt and serversettings.json are held." Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/JMusicBot/</Config>
-  <Config Name="Bot Version" Target="BOT_VERSION" Default="latest" Mode="" Description="Format: x.x.x" Type="Variable" Display="always" Required="false" Mask="false">0.4.3</Config>
-  <Config Name="Bot Repository" Target="BOT_GITHUB" Default="jagrosh/MusicBot" Mode="" Description="Format: {owner}/{repo}. Changes what repository is used for the bot. Useful when the bot breaks with no public fix other than a forked repo." Type="Variable" Display="always" Required="false" Mask="false">jagrosh/MusicBot</Config>
+  <Config Name="Bot Version" Target="BOT_VERSION" Default="latest" Mode="" Description="Format: x.x.x" Type="Variable" Display="always" Required="false" Mask="false">latest</Config>
+  <Config Name="Bot Repository" Target="BOT_GITHUB" Default="jagrosh/MusicBot" Mode="" Description="Format: {owner}/{repo}. Changes what repository is used for the bot." Type="Variable" Display="always" Required="false" Mask="false">jagrosh/MusicBot</Config>
 </Container>
