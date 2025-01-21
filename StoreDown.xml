@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>https://forums.unraid.net/forum/94-support/</Support>
+  <Support>https://forums.unraid.net/topic/185488-support-teknicallity-storedown/</Support>
   <Project>https://github.com/FoxUSA/StoreDown</Project>
   <Overview>An inventory system that is hopefully simple enough for everyone!&#xD;
 &#xD;
