@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>FolderView</Name>
+  <PluginURL>https://raw.githubusercontent.com/VladoPortos/folder.view/main/folder.view.plg</PluginURL>
+  <PluginAuthor>VladoPortos</PluginAuthor>
+  <MinVer>7.0.0</MinVer>
+  <Plugin>True</Plugin>
+  <Beta>False</Beta>
+  <Category>Tools:System</Category>
+  <Description>
+FolderView lets you create folders for grouping Dockers and VMs together to help with organization. Especially useful if you're using docker-compose.
+Getting Started: A new button named "Add Folder" will appear at the bottom of the docker and VM tab(s) next to "Add Container", depending on whether they are enabled in Settings or not.&#xD;
+&#xD;
+This is VladoPortos's fork from scolcipitato's original (now broken) Folderview plugin. 
+He has not yet created an Unraid templates repository, so this serves as a stop-gap until that happens.
+If this is against any rules or is otherwise unwanted, feel free to contact me on Github and I will remove it.
+  </Description>
+  <Support>https://forums.unraid.net/topic/142782-plugin-folderview/</Support>
+  <IconFA>folder-open-o</IconFA>
+</Containers>
