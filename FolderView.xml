@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Name>FolderView</Name>
+  <Name>Folder-View</Name>
   <PluginURL>https://raw.githubusercontent.com/VladoPortos/folder.view/main/folder.view.plg</PluginURL>
   <PluginAuthor>VladoPortos</PluginAuthor>
   <MinVer>7.0.0</MinVer>
