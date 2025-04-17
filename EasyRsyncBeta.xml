@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Name>Easy Rsync Beta</Name>
+  <PluginURL>https://raw.githubusercontent.com/Teknicallity/easy-rsync/dev/easy.rsync.beta.plg</PluginURL>
+  <PluginAuthor>Teknicallity</PluginAuthor>
+  <MinVer>7.0.0</MinVer>
+  <Plugin>True</Plugin>
+  <Beta>True</Beta>
+  <Category>Backup: Tools:</Category>
+  <Description>
+Easy Rsync simplifies file and directory synchronization between locations using rsync, allowing users to set up and execute synchronizations.&#xD;
+  </Description>
+  <Support>https://github.com/Teknicallity/easy-rsync/issues/</Support>
+  <IconFA>superpowers</IconFA>
+</Containers>
